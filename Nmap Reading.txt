@@ -1,0 +1,26 @@
+#3
+1. What is Nmap?
+Nmap (Network Mapper) is an open-source network scanning and
+ security auditing tool used to discover hosts, 
+identify open ports, detect services, and examine network configurations.
+
+2. What is the Python Nmap module?
+python-nmap is a Python library that allows developers to execute Nmap scans and access their results through Python code.
+
+Installation:
+
+py -m pip install python-nmap 
+
+import nmap  this is importing method
+
+
+3. Important Nmap Python functions
+Function	        Description
+nmap.PortScanner()	Creates an Nmap scanner object
+scan()	            Performs a network scan
+all_hosts()	        Returns discovered hosts
+all_ports()	        Returns scanned ports
+all_protocols()  	Returns discovered protocols
+nmap_version()	    Returns installed Nmap version
+state()	Returns      host state
+command_line()   	Returns executed Nmap command
